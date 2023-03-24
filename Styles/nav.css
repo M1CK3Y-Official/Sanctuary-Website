@@ -5,8 +5,9 @@ header {
 
 nav {
     padding: 0 2.5%;
-    background: #33333375;
-    box-shadow: 0 0 25px #ffffff50;
+    background: #c03f1f75;
+    /* background: #33333375; */
+    box-shadow: 0 0 25px #00000050;
     min-height: 10vh;
     max-width: 90%;
     border-radius: 10em;
@@ -55,11 +56,14 @@ nav {
     font-size: clamp(0.5rem, 0.0752rem + 1.8123vw, 2.25rem);
     font-weight: 600;
     text-shadow: 5px 2.5px 2.5px #00000050;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .nav-link:hover {
-    color: #ff0000;    
+    color: #333;    
+    text-shadow: none;
+    /* font-weight: 800; */
+    text-transform: uppercase;
 }
 
 .nav-item {
