@@ -5,8 +5,9 @@ header {
 
 nav {
     padding: 0 2.5%;
-    background: #33333375;
-    box-shadow: 0 0 25px #ffffff50;
+    background: #c03f1f75;
+    /* background: #33333375; */
+    box-shadow: 0 0 25px #00000050;
     min-height: 10vh;
     max-width: 90%;
     border-radius: 10em;
